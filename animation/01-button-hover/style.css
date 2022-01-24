@@ -8,6 +8,15 @@
   font-family: Arial, sans-serif;
 }
 
+.grow {
+	transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+	transform: scale(1.1);
+}
+
+
 button {
   border-radius: 8px;
   border: none;
